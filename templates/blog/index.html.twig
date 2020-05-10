@@ -1,0 +1,25 @@
+
+{% extends "base.html.twig" %}
+
+{%  block title %} Liste d'articles {% endblock %}
+{% block body %}
+
+
+        <div class="container">
+
+
+                <h1 class="display-3"> Bienvenue sur SymApp </h1>
+                <p class="lead">Nous mettre a votre disposition une large categorie de produit.</p>
+                <hr class="my-4">
+                <p>Vous etes curieux !!</p>
+                <p class="lead">
+                        <a class="btn btn-primary btn-lg" href="{{ path ('articles') }}" role="button">VOIRE NOS PRODUITS. </a>
+                </p>
+
+        </div>
+        <div class = "jumbotron mt-3">
+        </div>
+
+{% endblock %}
+
+
